@@ -186,7 +186,6 @@ function goBack () {
 function close () {
     document.getElementById('popup').style.display = 'none'; 
     document.getElementById('wrap').style.display = 'block';
-    console.log(1)
 }
 
 
