@@ -180,7 +180,7 @@ function mainMenu () {
 }
 
 function goBack () {
-    window.history.back()
+    history.go(-1)
 }
 
 function close () {
