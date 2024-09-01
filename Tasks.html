@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Tasks</title>
+</head>
+<body>
+    <div class="body-wrap">
+        <div class="main-wrap">
+            <header class="header">
+                <p>Задачи</p>
+            </header>
+        <nav class="menu">
+            <ul>
+            <li class="li-opacity"><img src="/icons/home.svg"><a href="Option1.html"><p>Складской учет</p></a></li>
+            <li><img src="/icons/factory.svg"><a href="/production.html"><p>Учет в производстве</p></a></li>
+            </ul>
+        </nav>
+        </div>
+        <footer>
+            <div class="navbar">
+                <button onclick = mainMenu() class="navbar-menu"> 
+                    <div class="icon-container"> <img src="/icons/menu_24px.svg" alt="menu"></div>
+                    <span>Меню</span>
+                </button>
+                <button class="navbar-menu"> 
+                    <div class="icon-container"> <img src="/icons/Vector.svg" alt="menu"></div>
+                    <span>Сканер</span>
+                </button>
+                <button onclick = goBack() class="navbar-menu"> 
+                    <div class="icon-container"> <img src="/icons/arrow.svg" alt="menu"></div>
+                    <span>Назад</span>
+                </button>
+            </div>
+        </footer> 
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
